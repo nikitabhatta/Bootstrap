@@ -5,14 +5,3 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
-$(document).ready(function(){
-    $('#button-newsletter').click(function(){
-        let email = $('input[type="text"]').val();
-        if(email){
-            alert("Thank you for subscribing, " + email + "!");
-        } else {
-            alert("Please enter your email address.");
-        }
-    });
-});
-
